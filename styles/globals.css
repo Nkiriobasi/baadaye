@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.spaceMonoFont {
+  font-family: 'Space Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 a {
@@ -11,6 +25,23 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.max_width {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.frame1_bg {
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/png/Header_image.png);
+}
+
+.frame8_bg {
+  position: relative;
+  background-position: right 15% bottom 45%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/png/smallBackgroundVector.svg);
 }
