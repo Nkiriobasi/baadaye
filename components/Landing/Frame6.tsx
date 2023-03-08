@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 export default function Frame6() {
   return (
-    <div className="bg-[#1E1E1E] w-full h-auto xl:px-[120px] px-6 md:py-[150px] py-[100px] gap-5">
+    <div className="opacity_bg xl:px-[120px] px-6 md:py-[150px] py-[100px] gap-5">
         <span className="block w-full">
             <h3 className={`spaceMonoFont not-italic max-w-[777px] h-auto 
                 font-bold text-left uppercase text-[#F2F2F2] tracking-tighter 

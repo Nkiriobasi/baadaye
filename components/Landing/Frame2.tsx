@@ -9,7 +9,7 @@ import toteBag from '../../assets/png/tote_bag.png'
 
 export default function Frame2() {
   return (
-    <div className="bg-[#1E1E1E] w-full h-auto xl:pl-[120px] pl-6 pb-[190px]">
+    <div className="opacity_bg xl:pl-[120px] pl-6 pb-[190px]">
         <span className="block w-full">
             <h3 className={`spaceMonoFont not-italic max-w-[470px] h-auto 
                 font-bold text-left uppercase text-[#F2F2F2] tracking-tighter 

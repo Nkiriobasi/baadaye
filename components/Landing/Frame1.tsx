@@ -12,9 +12,9 @@ export default function Frame1() {
     >
       <Navbar />
 
-      <span className="block w-full mb-[100px]">
+      <span className="block w-full pb-[100px] pt-40">
         <h3 className={`spaceMonoFont not-italic max-w-[470px] h-auto 
-          mx-auto font-bold text-center uppercase text-[#F3F3F3] tracking-tighter lg:text-7xl text-6xl`}
+          mx-auto font-bold text-center uppercase text-[#F3F3F3] tracking-tighter lg:text-7xl sm:text-6xl text-5xl`}
         >
           Embrace a Positive Future
         </h3>

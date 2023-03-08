@@ -8,7 +8,7 @@ import whoWeAre2 from '../../assets/png/whoWeAre2.png'
 
 export default function Frame4() {
   return (
-    <div className="bg-[#1E1E1E] flex sm:flex-row flex-col justify-center items-start w-full h-auto xl:px-[120px] px-6 md:py-[150px] py-[100px] gap-5">
+    <div className="opacity_bg flex sm:flex-row flex-col justify-center items-start w-full h-auto xl:px-[120px] px-6 md:py-[150px] py-[100px] gap-5">
         <div className="grow w-full">
             <span className="block w-full">
                 <h3 className={`spaceMonoFont not-italic lg:max-w-[300px] max-w-[200px] h-auto 

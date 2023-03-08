@@ -7,8 +7,6 @@ import Frame6 from './Frame6'
 import Frame7 from './Frame7'
 import Frame8 from './Frame8'
 import Footer from '../Footer/Footer'
-import backgroundVector from '../../assets/png/backgroundVector.svg'
-import Image from 'next/image'
 
 
 
@@ -17,18 +15,23 @@ export default function Landing() {
     <div className='bg-[#1E1E1E]'>
       <Frame1 />
 
-      <div className="relative">
+      <div className="w-full h-auto frames_bg_np_sm_wwr">
         <Frame2 />
         <Frame3 />
-        <Frame4 />
-        <Frame5 />
-        <Frame6 />
-        <Frame7 />
-        <Frame8 />
-        <Footer />
 
-        {/* <Image src={backgroundVector} alt='' className='fill-black z-0 absolute top-80 left-0' /> */}
+        <div className="frames_bg_wwr__jorp">
+          <Frame4 />
+          <Frame5 />
+
+          <div className="frames_bg_jorp_vuiasnu">
+            <Frame6 />
+            <Frame7 />
+            <Frame8 />
+          </div>
+        </div>
       </div>
+
+      <Footer />
     </div>
   )
 }

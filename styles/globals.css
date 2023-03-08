@@ -30,6 +30,27 @@ a {
   margin: 0 auto;
 }
 
+.frames_bg_np_sm_wwr {
+  position: relative;
+  background-position: left 9%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/png/BackgroundVector.svg);
+}
+.frames_bg_wwr__jorp {
+  position: relative;
+  background-position: left -13%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/png/BackgroundVector.svg);
+}
+.frames_bg_jorp_vuiasnu {
+  position: relative;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/png/BackgroundVector.svg);
+}
 .frame1_bg {
   position: relative;
   background-position: center center;
@@ -37,11 +58,26 @@ a {
   background-size: cover;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/png/Header_image.png);
 }
-
 .frame8_bg {
   position: relative;
   background-position: right 15% bottom 45%;
   background-repeat: no-repeat;
   background-size: auto;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/png/smallBackgroundVector.svg);
+}
+
+.opacity_bg{
+  background: rgba(30, 30, 30, 0.95);
+}
+
+@media only screen and (max-width: 1024px){
+  .frames_bg_np_sm_wwr, .frames_bg_wwr__jorp, .frames_bg_jorp_vuiasnu{
+    background-image: none;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .display_none{
+    display: none;
+  }
 }
