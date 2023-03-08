@@ -2,13 +2,25 @@ import Navbar from "../Navbar/Navbar";
 import Image from 'next/image'
 import showNowIcon from '../../assets/png/showNow_icon.png'
 import Link from "next/link";
-
+import Header_image from '../../assets/png/Header_image.png'
 
 
 export default function Frame1() {
+    // <style jsx>{`
+    //   .frame1_bg {
+    //     position: relative;
+    //     background-position: center center;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     background-image: url(${Header_image});
+    //   }
+    // `}
+    // </style>
+
   return (
     <div 
       className="frame1_bg w-full h-auto xl:px-0 px-6"
+      style={{ backgroundImage: `url(${Header_image.src})` }}
     >
       <Navbar />
 

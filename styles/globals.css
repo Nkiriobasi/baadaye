@@ -34,7 +34,6 @@ a {
   position: relative;
   background-repeat: no-repeat;
   background-size: auto;
-  background-image: url(../public/backgroundVector.svg);
 }
 
 
@@ -54,14 +53,12 @@ a {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../public/Header_image.png);
 }
 .frame8_bg {
   position: relative;
   background-position: right 15% bottom 45%;
   background-repeat: no-repeat;
   background-size: auto;
-  background-image: url(../public/smallBackgroundVector.svg);
 }
 
 .opacity_bg{

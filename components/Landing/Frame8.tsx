@@ -1,8 +1,12 @@
-
+import smallBackgroundVector from '../../assets/png/smallBackgroundVector.svg'
 
 export default function Frame8() {
+
   return (
-    <div className="w-full h-auto frame8_bg">
+    <div 
+        className="w-full h-auto frame8_bg"
+        style={{ backgroundImage: `url(${smallBackgroundVector.src})` }}
+    >
         <div className="opacity_bg xl:px-[120px] px-6 md:py-[160px] py-[100px]">
             <span className="block w-full">
                 <h3 className={`spaceMonoFont not-italic max-w-[675px] h-auto 
