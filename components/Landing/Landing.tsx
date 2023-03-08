@@ -15,7 +15,9 @@ export default function Landing() {
     <div className='bg-[#1E1E1E]'>
       <Frame1 />
 
-      <div className="w-full h-auto frames_bg_np_sm_wwr frames_bg">
+      <div 
+        className="w-full h-auto frames_bg_np_sm_wwr frames_bg"
+      >
         <Frame2 />
         <Frame3 />
 
