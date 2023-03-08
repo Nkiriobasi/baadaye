@@ -15,15 +15,15 @@ export default function Landing() {
     <div className='bg-[#1E1E1E]'>
       <Frame1 />
 
-      <div className="w-full h-auto frames_bg_np_sm_wwr">
+      <div className="w-full h-auto frames_bg_np_sm_wwr frames_bg">
         <Frame2 />
         <Frame3 />
 
-        <div className="frames_bg_wwr__jorp">
+        <div className="frames_bg_wwr__jorp frames_bg">
           <Frame4 />
           <Frame5 />
 
-          <div className="frames_bg_jorp_vuiasnu">
+          <div className="frames_bg_jorp_vuiasnu frames_bg">
             <Frame6 />
             <Frame7 />
             <Frame8 />

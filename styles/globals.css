@@ -30,27 +30,25 @@ a {
   margin: 0 auto;
 }
 
-.frames_bg_np_sm_wwr {
+.frames_bg{
   position: relative;
-  background-position: left 9%;
   background-repeat: no-repeat;
   background-size: auto;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/png/BackgroundVector.svg);
+  background-image: url('../assets/png/backgroundVector.svg');
+}
+
+
+.frames_bg_np_sm_wwr {
+  background-position: left 9%;
 }
 .frames_bg_wwr__jorp {
-  position: relative;
   background-position: left -13%;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/png/BackgroundVector.svg);
 }
 .frames_bg_jorp_vuiasnu {
-  position: relative;
   background-position: left top;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/png/BackgroundVector.svg);
 }
+
+
 .frame1_bg {
   position: relative;
   background-position: center center;
